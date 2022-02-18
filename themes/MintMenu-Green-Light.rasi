@@ -1,51 +1,50 @@
 
-/* theme created by J O N A T H A N  P. */
-/* My github https://github.com/IamJony */
+/* Layout by J O N A T H A N  P. https://github.com/IamJony */
+/* theme by ItzSelenux based on Mint-Y https://github.com/ItzSelenux */
 
 configuration {
-	font:							"Nova Mono for Powerline Bold 10";
     show-icons:                     true;
-	icon-theme: 					"Tela blue dark";
-    display-drun: 					"";
+    display-drun: 					"🔎";
     drun-display-format:            "{name}";
     disable-history:                false;
     fullscreen:                     false;
-	hide-scrollbar: 				true;
-	sidebar-mode: 					false;
+	hide-scrollbar: 				false;
+	sidebar-mode: 					true;
 	
 }
 
-@import "colors.rasi"
+* {
+  al:   #f5f5f5;
+  bg:   #e8e8e8;
+  fg:   #000000;
+  se:	#8fa876;
+}
 
 window {
-    transparency:                   "real";
+    transparency:                   "false";
     background-color:          @bg;
    text-color: 					@fg;
     border:			     0px;
     border-color:		    @ac;
     border-radius:               6px;
-    width:                             360px;
-    location:                       northwest;
-    x-offset:                        10;
-    y-offset:                       50%;
+    width:                             460px;
 }
 
 prompt {
     enabled: 						true;
 	padding: 						0px 0px 0px 2px;
-	background-color: 				@al;
+	background-color: 				@bg;
 	text-color: 					@fg;
-	font:							"feather 12";
 }
 
 entry {
-    background-color:               @al;
+    background-color:               @bg;
     text-color:                     @fg;
     placeholder-color:              @fg;
     expand:                         true;
     horizontal-align:               0;
-    placeholder:                    "Search...";
-    padding:                        0px 0px 0px 5px;
+    placeholder:                    "";
+    padding:                        0px 0px 0px 0px;
     blink:                          true;
   
 }
@@ -64,10 +63,11 @@ inputbar {
 }
 
 listview {
+    scrollbar:                      @se;
     background-color:               @al;
     padding:                        0px;
     columns:                        3;
-    lines:                          3;
+    lines:                          6;
     spacing:                        0px;
     cycle:                          true;
     dynamic:                        true;
@@ -82,8 +82,8 @@ mainbox {
     border-radius:                  0px;
 	border-color:					@ac;
     children:                       [ inputbar, listview ];
-    spacing:                       	10px;
-    padding:                        10px;
+    spacing:                       	0px;
+    padding:                        0px;
     
 }
 
@@ -96,7 +96,7 @@ element {
 }
 
 element-icon {
-    size:                              38px;
+    size:                              64px;
     border:                         0px;
     horizontal-align:               0.5;
     horizontal-align:               0.5;
@@ -109,15 +109,31 @@ element-text {
     horizontal-align:               0.5;
     vertical-align:                 0.5;
     margin:                         0px 2.5px 0px 2.5px;
-    background-color:               @bg;
+    background-color:               @al;
     text-color: 					@fg;
 }
 
 element selected {
-    background-color:               @bg;
+    background-color:               @se;
     text-color:                     #000000;
 	border:							0px 0px 3px 0px;
     border-radius:                  4px;
     border-color:                  	@se;
 
+}
+element-icon selected {
+    background-color:               @se;
+    text-color:                     #000000;
+	border:							0px 0px 3px 0px;
+    border-radius:                  4px;
+    border-color:                  	@se;
+
+}
+element-text selected {
+    expand:                         true;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    margin:                         0px 2.5px 0px 2.5px;
+    background-color:               @se;
+    text-color: 					@fg;
 }
