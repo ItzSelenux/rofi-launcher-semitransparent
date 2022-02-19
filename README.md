@@ -1,7 +1,7 @@
 
 ## Screenshot:
 ![GitHub Logo](/rofi.png)
-Check for pixelitos-icon-theme! <a href="url">https://github.com/ItzSelenux/pixelitos-icon-theme</a>
+Check for <a href=https://github.com/ItzSelenux/pixelitos-icon-theme>pixelitos-icon-theme</a>! 
 # rofi-mint-themes
 
 ## Table of contents
