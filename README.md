@@ -1,5 +1,5 @@
 
-## Example:
+## Screenshot:
 ![GitHub Logo](/rofi.png)
 
 # rofi-mint-themes
