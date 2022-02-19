@@ -41,7 +41,7 @@ chmod +x install uninstall
 ```
 ./install
 ```
-After this you will be asked what components you want to install, here you can choose what you want
+After this you will be asked what components you want to install
 ![GitHub Logo](/install.png)
 
  ## Uninstallation
