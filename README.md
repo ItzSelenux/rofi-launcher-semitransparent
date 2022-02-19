@@ -27,7 +27,7 @@ this theme requires a 1024x768 screen resolution, if you have problems with this
  ```
  ./install
  ```
-After this you will be asked what components you want to install, here you can choose what you want
+After this you will be asked what components you want to install
 
 ![GitHub Logo](/install.png)
    ### Download and install
