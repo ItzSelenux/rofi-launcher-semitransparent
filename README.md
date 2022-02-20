@@ -1,9 +1,10 @@
-
-## Example:
+# rofi-mintmenu-themes
+## Screenshot:
 ![GitHub Logo](/rofi.png)
+Check for <a href=https://github.com/ItzSelenux/pixelitos-icon-theme>pixelitos-icon-theme</a>! 
 
-# rofi-mint-themes
-
+# note:
+this theme requires a 1024x768 screen resolution, if you have problems with this, please check <a href='https://github.com/ItzSelenux/rofi-mintmenu-themes/wiki/Modify-theme-for-show-more-or-less-ite'>Modify theme for show more or less items</a>
 ## Table of contents
 
  - [Installation](#installation)
@@ -26,7 +27,7 @@
  ```
  ./install
  ```
-After this you will be asked what components you want to install, here you can choose what you want
+After this you will be asked what components you want to install
 
 ![GitHub Logo](/install.png)
    ### Download and install
@@ -40,7 +41,7 @@ chmod +x install uninstall
 ```
 ./install
 ```
-After this you will be asked what components you want to install, here you can choose what you want
+After this you will be asked what components you want to install
 ![GitHub Logo](/install.png)
 
  ## Uninstallation
