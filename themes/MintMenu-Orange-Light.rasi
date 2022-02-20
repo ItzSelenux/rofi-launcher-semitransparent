@@ -24,8 +24,8 @@ window {
     transparency:                   "false";
     background-color:          @bg;
    text-color: 					@fg;
-    border:			     0px;
-    border-color:		    @ac;
+    border:			     1px;
+    border-color:		    @fg;
     border-radius:               6px;
     width:                             460px;
 }
